@@ -84,12 +84,11 @@ The 2 items above are not owned by me, They go to there respected owners
 /*Theme Itself*/
 	/*Background Img*/
 	#app-mount,
-	#app-mount tiledBackground {
-  	 	background-image: var(--background);
- 		background-size: 150px;
- 		width: 300px;
-  	 	height: 300px;
- 		border: 2px solid;
+	#app-mount .container-16j22k {
+		background-image: var(--background); 
+		background-position: center; 
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 
 	/*Home*/
